@@ -1,0 +1,10 @@
+.image {
+    width: auto;
+    max-height: 450px;
+}  
+
+.imageContainer {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    /* min-height: auto; */
+}
