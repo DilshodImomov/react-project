@@ -11,8 +11,6 @@ import Register from './components/Register/Register';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { createClient } from 'pexels';
-import { Routes, BrowserRouter, Route } from 'react-router-dom';
-import Home from './components/Home/Home';
 /* ------------- PEXELS API CONFIG ------------------ */
 
 const PEXELS_API_KEY = '563492ad6f91700001000001613c9cd81c434f058d0faa4ad2c2e616';
