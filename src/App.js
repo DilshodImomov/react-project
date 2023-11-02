@@ -78,7 +78,7 @@ function App() {
       input.current.blur();
       input.current.value = "";
       if ( requestImage(inputField, 1) ) {
-        fetch('http://localhost:3000/image', {
+        fetch('https://node-practice-t9xm.onrender.com/image', {
           method: 'put',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({

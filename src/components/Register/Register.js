@@ -6,7 +6,7 @@ const Register = ({changeRoute, loadUser}) => {
     const [nameField, setNameField] = useState("");
 
     const register = () => {
-        fetch('http://localhost:3000/register', {
+        fetch('https://node-practice-t9xm.onrender.com/register', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
